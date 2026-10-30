@@ -1,21 +1,32 @@
 # Security Policy
 
-## Supported Versions
+## Supported versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This repository is maintained as a research notebook project. Security updates are provided for the latest revision on the default branch (`main`).
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Branch / revision | Supported |
+| --- | --- |
+| `main` | :white_check_mark: |
+| Older snapshots / unpublished branches | :x: |
 
-## Reporting a Vulnerability
+## Reporting a vulnerability
 
-Use this section to tell people how to report a vulnerability.
+Please do not report security issues through public GitHub issues, discussions, or pull requests.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Instead, use GitHub Security Advisories for this repository:
+
+- https://github.com/erma0x/stroke-prediction-model/security/advisories/new
+
+When reporting, include:
+
+- a clear description of the issue
+- affected files, dependencies, or notebook cells
+- reproduction steps or proof of concept
+- impact and severity assessment
+- any suggested remediation
+
+We aim to acknowledge valid reports promptly and will work with you on a fix or a coordinated disclosure timeline.
+
+## Dependency and environment security
+
+This project depends on Python packages listed in `requirements.txt`. Keep dependencies current and prefer patched versions when available. If a dependency issue is discovered, please report it via the advisory process above.
